@@ -1,0 +1,16 @@
+grid-template-columns -> irá determinar a quantidade de colunas no template
+especifico essas propriedades dentro do grid-container.
+
+	grid-template-columns: auto auto auto; 
+		|
+		 -> determina que o loayout terá 3 colunas de tamanho automático, irá se ajustar conforme o tamanho da tela do dispositivo.
+
+grid-template-rows -> coloco o tamanho que será minhas linhad
+	
+	grid-template-rows: 56px
+		|
+		 -> determina que a altura da linha sera de 56px.
+
+Propriedades para especificar onde um item vai começar e onde terminar.
+grid-column-start:  1;
+grid-column-end: 2;
